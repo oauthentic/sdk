@@ -55,12 +55,12 @@ Parameters:
 
 - `qr`the DIV ID where the QR-code will be displayed. Its width is always 174px. Its height is either 174px or 196px depending on the progress user interface is displayed or not (see options below).
 - `key` is an authentication service key defined in the developer dashboard of the *O*Authentic [web app](https://oauthentic.com/app/). 
-- `token` is a result of the `/token/create` API endpoint. See [oauthentic.com](https://oauthentic.com) and also the [PHP client](https://github.com/gdorbes/oauthentic/tree/master/php).
+- `token` is a result of the `/token/create` API endpoint. See [oauthentic.com](https://oauthentic.com) and also the [PHP client](https://github.com/oauthentic/sdk/blob/master/php/o9-client.php).
 - `expire` is the token expire time. Authentication must be complete before this time.
 
 ### Simple use with the PHP client
 
-If this client is used with the [PHP client](https://github.com/gdorbes/oauthentic/tree/master/php) or equivalent facility, the call is then simpler:
+If this client is used with the [PHP client](https://github.com/oauthentic/sdk/blob/master/php/o9-client.php) or equivalent facility, the call is then simpler:
 
 ```javascript
 new OAuthentic().authent("qr",{});

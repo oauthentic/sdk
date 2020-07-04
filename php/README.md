@@ -8,7 +8,7 @@ This library defines a class with several useful functions to simplify using the
 
 ### Get the client script from GitHub
 
-See [source](https://github.com/gdorbes/oauthentic/blob/master/php/o9-client.php).
+See [source](https://github.com/oauthentic/sdk/blob/master/php/o9-client.php).
 
 ### Include the script in your PHP file and create an instance
 
